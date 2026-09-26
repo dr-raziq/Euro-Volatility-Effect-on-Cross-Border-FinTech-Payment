@@ -1,0 +1,34 @@
+REGRESSION SUMMARY: PAYPAL | EUR/GBP
+Observations: 1282
+R-squared: 1.0000
+Adjusted R-squared: 1.0000
+F-statistic: 495941570869086459382615506944.00 (p=0.0000)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      paypal_final_cost   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 4.959e+29
+Date:                Sat, 18 Jul 2026   Prob (F-statistic):               0.00
+Time:                        01:24:46   Log-Likelihood:                 32022.
+No. Observations:                1282   AIC:                        -6.404e+04
+Df Residuals:                    1280   BIC:                        -6.403e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const         -2.033e-12   1.23e-12     -1.655      0.098   -4.44e-12    3.77e-13
+close          1031.0620   1.46e-12   7.04e+14      0.000    1031.062    1031.062
+paypal_markup    30.9319   4.39e-14   7.04e+14      0.000      30.932      30.932
+==============================================================================
+Omnibus:                      200.744   Durbin-Watson:                   0.001
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              159.828
+Skew:                           0.770   Prob(JB):                     1.97e-35
+Kurtosis:                       2.214   Cond. No.                     2.11e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 4.89e-30. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

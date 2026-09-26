@@ -1,0 +1,34 @@
+REGRESSION SUMMARY: REVOLUT | EUR/JPY
+Observations: 1282
+R-squared: 1.0000
+Adjusted R-squared: 1.0000
+F-statistic: 486018707208599972968409333760.00 (p=0.0000)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     revolut_final_cost   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 4.860e+29
+Date:                Sat, 18 Jul 2026   Prob (F-statistic):               0.00
+Time:                        01:24:47   Log-Likelihood:                 26140.
+No. Observations:                1282   AIC:                        -5.228e+04
+Df Residuals:                    1280   BIC:                        -5.227e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const           1.924e-10   1.82e-10      1.055      0.291   -1.65e-10     5.5e-10
+close           1000.0000   1.43e-12   6.97e+14      0.000    1000.000    1000.000
+revolut_markup          0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                      101.488   Durbin-Watson:                   0.002
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              126.175
+Skew:                          -0.710   Prob(JB):                     3.99e-28
+Kurtosis:                       3.588   Cond. No.                          inf
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

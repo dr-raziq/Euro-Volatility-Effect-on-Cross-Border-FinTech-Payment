@@ -1,0 +1,34 @@
+REGRESSION SUMMARY: WISE | EUR/JPY
+Observations: 1282
+R-squared: 1.0000
+Adjusted R-squared: 1.0000
+F-statistic: 22285904408696834141360165486592.00 (p=0.0000)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        wise_final_cost   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 2.229e+31
+Date:                Sat, 18 Jul 2026   Prob (F-statistic):               0.00
+Time:                        01:24:46   Log-Likelihood:                 28586.
+No. Observations:                1282   AIC:                        -5.717e+04
+Df Residuals:                    1280   BIC:                        -5.716e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const       -1.546e-10    2.7e-11     -5.716      0.000   -2.08e-10   -1.02e-10
+close        1005.0000   2.13e-13   4.72e+15      0.000    1005.000    1005.000
+wise_markup          0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                       86.907   Durbin-Watson:                   0.106
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              103.476
+Skew:                          -0.667   Prob(JB):                     3.39e-23
+Kurtosis:                       3.400   Cond. No.                          inf
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

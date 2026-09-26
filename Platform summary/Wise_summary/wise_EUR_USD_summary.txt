@@ -1,0 +1,34 @@
+REGRESSION SUMMARY: WISE | EUR/USD
+Observations: 1281
+R-squared: 1.0000
+Adjusted R-squared: 1.0000
+F-statistic: 24754581890293824415818842112.00 (p=0.0000)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        wise_final_cost   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 2.475e+28
+Date:                Sat, 18 Jul 2026   Prob (F-statistic):               0.00
+Time:                        01:24:46   Log-Likelihood:                 30643.
+No. Observations:                1281   AIC:                        -6.128e+04
+Df Residuals:                    1279   BIC:                        -6.127e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const       -5.112e-12   7.22e-12     -0.708      0.479   -1.93e-11    9.06e-12
+close        1005.0000   6.39e-12   1.57e+14      0.000    1005.000    1005.000
+wise_markup          0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                       14.891   Durbin-Watson:                   0.000
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.255
+Skew:                           0.267   Prob(JB):                     0.000487
+Kurtosis:                       2.973   Cond. No.                          inf
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
