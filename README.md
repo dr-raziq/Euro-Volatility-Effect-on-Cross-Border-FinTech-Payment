@@ -110,7 +110,9 @@ Structure
 
 Note
 
+    Please open all PDF files on your desktop, it will not work on VS code.
     For more information please check ‘report.pdf’
+
 
    
 
